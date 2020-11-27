@@ -1,0 +1,1 @@
+visit https://www.kaggle.com/shanmukh05/mask-detection to download the dataset
