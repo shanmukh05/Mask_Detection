@@ -6,9 +6,9 @@ Datset used in this Project consists of two folders ("yes","no"). Yes folder con
 Dataset can be downloaded from the link given in "dataset.txt" file.
 
 ## Code
--> The images downloaded are preprocessed and converted to batches (size:32) dataset. Data Augumentation is also applied as the available data is less for the Deep Learning model.\
--> Best parameters(Dropout,optimizer) are selected using Tensorboard visualization.(To know more about Tensorboard visit https://www.tensorflow.org/tensorboard). \
--> Project is done in python using Tensorflow ML library (To know more about TensorFlow visit https://www.tensorflow.org/). \
+- The images downloaded are preprocessed and converted to batches (size:32) dataset. Data Augumentation is also applied as the available data is less for the Deep Learning model.\
+- Best parameters(Dropout,optimizer) are selected using Tensorboard visualization.(To know more about Tensorboard visit [TensorBoard](https://www.tensorflow.org/tensorboard). 
+- Project is done in python using Tensorflow ML library (To know more about TensorFlow visit [TensorFlow](https://www.tensorflow.org/). 
 
 ## Visualization
 ### Train data visualization using Tensorboard
@@ -29,5 +29,5 @@ Dataset can be downloaded from the link given in "dataset.txt" file.
 ![](vis/6out2.png)
 #### Unseen images
 ![](vis/7unseen.png)
-### Image at diff filters of given convolution layer
+### Image at various filters of given convolution layer
 ![](vis/8diff_conv_layers.png)
